@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>HOON</title>
+	<link href='https://fonts.googleapis.com/css?family=Cabin|Josefin+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+</head>
+
+<body>
+
+	<h1>Hi, I'm Hoon.</h1>
+	<div class='contact'>
+		<ul class='links'>
+			<id="email">
+				Email: 
+				<a href="mailto:jhk2020@gmail.com">
+					jhk2020@gmail.com
+				</a>
+			</li>
+			<li id='github'>
+				<a href="https://github.com/jhk2020" target='_blank'>
+					<img class="icon" src="assets/github.png" style ="height: 24px; width: 24px;"/>
+				</a>
+			</li>
+			<li id='linkedin'>
+				<a href="https://www.linkedin.com/in/hooon" target='_blank'>
+					<img class="icon" src="assets/linkedin.png" style ="height: 24px; width: 31px;">
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="main">
+			<p class="Iama">I am a<span class="description"></span></p>
+			<p class="mainschpill">
+				I studied economics in college, but realized I wanted to build things after graduating.<br>
+				You can check out some of my projects on my github. <br>
+				I also like to travel. You can read my (unfinished) blog of my most recent excursion <a href="https://hoon.atavist.com/followouradventure" target="_blank" class="external">here</a>.
+			</p>
+	</div>
+
+	<script src="lib/angular/angular.min.js"></script>
+	<script src="lib/jquery/dist/jquery.min.js"></script>
+	<script src="lib/typed.js/js/typed.js"></script>
+	
+	<script>
+    $(function(){
+      
+      $(".description").typed({
+          strings: [" software engineer.", " writer.", " travel enthusiast.", "n avid reader.", "n awesome sandwich maker."],
+          typeSpeed: 30,
+          backDelay: 1250,
+          backSpeed: 20,
+          loop: true
+      });
+
+      $(".external").hover(function() {
+      	$(this).toggleClass('active');
+      })
+
+    });
+
+	</script>
+
+</body>
+</html>

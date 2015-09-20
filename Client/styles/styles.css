@@ -1,0 +1,97 @@
+body {
+	background: url("../assets/background1.jpg");
+	background-position: center top;
+	background-size: cover;
+	color: white;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 300;
+	text-align: left;
+}
+
+img.desaturate {
+	filter: grayscale(100%);
+}
+
+.info {
+	margin-bottom: 15px;
+}
+
+#email {
+	font-size: 12px;
+}
+
+h1 {
+	font-size: 60px;
+	margin-left: 10px;
+	margin-bottom: 9px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.contact {
+	margin-left: 10px;
+	vertical-align: middle;
+
+}
+.main {
+	margin-left: 15px;
+	position: absolute;
+	bottom: 15px;
+}
+
+.mainschpill {
+	font-family: 'Josefin Sans', sans-serif; 
+	font-size: 17px;
+	font-weight: 200;
+	line-height: 150%;
+}
+
+.Iama{
+	font-size: 28px;
+}
+
+.description{
+	font-size: 28px;
+}
+
+.links {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	bottom: 10px;
+}
+
+.links li {
+	display: inline;
+	padding: .2em .3em;
+}
+
+.active {
+	color: #7887AB;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
